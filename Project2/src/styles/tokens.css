@@ -1,0 +1,60 @@
+:root {
+	/* Brand Colors */
+	--color-primary: #1e40af; /* blue-800 */
+	--color-primary-foreground: #ffffff;
+	--color-secondary: #6b7280; /* gray-500 */
+	--color-secondary-foreground: #ffffff;
+	--color-accent: #f59e0b; /* amber-500 */
+	--color-accent-foreground: #111827; /* gray-900 */
+	--color-success: #10b981; /* emerald-500 */
+	--color-success-foreground: #ffffff;
+	--color-warning: #f59e0b; /* amber-500 */
+	--color-warning-foreground: #111827;
+	--color-error: #ef4444; /* red-500 */
+	--color-error-foreground: #ffffff;
+
+	/* UI Neutrals */
+	--color-background: #f9fafb; /* gray-50 */
+	--color-foreground: #111827; /* gray-900 */
+	--color-card: #ffffff;
+	--color-card-foreground: #111827;
+	--color-popover: #ffffff;
+	--color-popover-foreground: #111827;
+	--color-muted: #f3f4f6; /* gray-100 */
+	--color-muted-foreground: #6b7280; /* gray-500 */
+	--color-border: #e5e7eb; /* gray-200 */
+	--color-input: #ffffff;
+	--color-ring: #1e3a8a; /* blue-800 */
+
+	/* Radius */
+	--radius: 0.5rem;
+}
+
+.dark :root, :root.dark {
+	--color-primary: #60a5fa; /* blue-400 */
+	--color-primary-foreground: #0b1020;
+	--color-secondary: #9ca3af; /* gray-400 */
+	--color-secondary-foreground: #0b1020;
+	--color-accent: #fbbf24; /* amber-400 */
+	--color-accent-foreground: #0b1020;
+	--color-success: #34d399; /* emerald-400 */
+	--color-success-foreground: #0b1020;
+	--color-warning: #fbbf24; /* amber-400 */
+	--color-warning-foreground: #0b1020;
+	--color-error: #f87171; /* red-400 */
+	--color-error-foreground: #0b1020;
+
+	--color-background: #0b1020; /* dark bg */
+	--color-foreground: #f9fafb;
+	--color-card: #111827;
+	--color-card-foreground: #f9fafb;
+	--color-popover: #111827;
+	--color-popover-foreground: #f9fafb;
+	--color-muted: #1f2937;
+	--color-muted-foreground: #9ca3af;
+	--color-border: #1f2937;
+	--color-input: #0b1020;
+	--color-ring: #2563eb;
+}
+
+
